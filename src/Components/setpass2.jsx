@@ -3,7 +3,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 import { useNavigate, useParams } from 'react-router-dom';
 
-function Setpass() {
+function Setpass2() {
     const [password, setPassword] = useState("");
     const [con_password, setcon_Password] = useState("");
     const { str } = useParams(); 
@@ -78,4 +78,4 @@ function Setpass() {
     );
 }
 
-export default Setpass;
+export default Setpass2;
