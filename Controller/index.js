@@ -1,0 +1,11 @@
+import express from 'express';
+import logincontroller from './Logincontroller.js';
+import Subjectcontroller from './Subjectcontroller.js';
+import Questioncontroller from './Questioncontroller.js';
+import Resultcontroller from './Resultcontroller.js';
+const controller=express.Router();
+controller.use('/login',logincontroller);
+controller.use('/sub',Subjectcontroller);
+controller.use('/que',Questioncontroller);
+controller.use('/res',Resultcontroller);
+export default controller;
