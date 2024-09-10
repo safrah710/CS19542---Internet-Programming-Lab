@@ -101,7 +101,7 @@ body, html {
   height: 250px;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 55px;
-  padding-left:-50px;
+  padding-left:50px;
   margin-left:-10%;
   margin-top:-30px;
   border-radius: 10px;
