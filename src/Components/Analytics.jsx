@@ -128,7 +128,7 @@ function Analytics() {
                             </div>
                             <div style={{ textAlign: 'right' }}>
                                 <img
-                                    src='../../public/sign.jpg' 
+                                    src='../public/sign.jpg' 
                                     alt="Leader Signature"
                                     style={{ width: '120px', marginTop: '10px' }}
                                 />
