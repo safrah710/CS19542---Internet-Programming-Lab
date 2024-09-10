@@ -3,7 +3,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 import { useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import useLogout from '../hooks/Uselogout';
+import useLogout from '../hooks/UseLogout';
 
 function Viewres() {
     let navigate = useNavigate();
