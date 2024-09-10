@@ -24,7 +24,7 @@ const email_verify1 = async (req, res) => {
         let email=req.body.email;
         if (data) {
             let str = crypto.randomBytes(16).toString('hex');
-            let link = `http:/localhost:5173/Login/Forgot1/password1/${str}`;
+            let link = `https://reacturl18.netlify.app/Login/Forgot1/password1/${str}`;
             await db.collection('userdetails').updateMany({email}, { $set: { String:`${str}` } });
             await transport.sendMail({
                 from: process.env.USER,
@@ -50,7 +50,7 @@ const email_verify2 = async (req, res) => {
         let email=req.body.email;
         if (data) {
             let str = crypto.randomBytes(16).toString('hex');
-            let link = `https:/reacturl16.netlify.app/Admin/Forgot2/password2/${str}`;
+            let link = `https:/reacturl18.netlify.app/Admin/Forgot2/password2/${str}`;
             await db.collection('officialsdetails').updateMany({email}, { $set: { String:`${str}` } });
             await transport.sendMail({
                 from: process.env.USER,
