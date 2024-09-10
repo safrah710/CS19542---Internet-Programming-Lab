@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import useLogout from '../hooks/Uselogout';
+import useLogout from '../hooks/UseLogout';
 function Addquestion() {
    let [que,setQue]=useState("");
    let[cho1,setCho1]=useState("");
