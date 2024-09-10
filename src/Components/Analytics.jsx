@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
-import useLogout from '../hooks/Uselogout';
+import useLogout from '../hooks/UseLogout';
 
 function Analytics() {
     let logout = useLogout();
