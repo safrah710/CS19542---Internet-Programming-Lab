@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import { useParams } from 'react-router-dom';
-import useLogout from '../hooks/Uselogout';
+import useLogout from '../hooks/UseLogout';
 import { useNavigate } from 'react-router-dom';
 
 function Showsubject() {
