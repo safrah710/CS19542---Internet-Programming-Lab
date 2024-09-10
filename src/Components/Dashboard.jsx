@@ -68,7 +68,7 @@ const Dashboard = () => {
             <div className="mid">
                 <div className="sel">
                     <select 
-                        className="Course" 
+                        className="course" 
                         name="course"
                         value={selectedCourse}
                         onChange={handleCourseChange}
