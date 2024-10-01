@@ -1,8 +1,8 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+admin login :hackpuyals@gmail.com
+password:sssrk
+feature:
+user can attend exams
+2.if he got more than 50% in exam he can get certificate
+3.exam will be proctore if he moves to next tab exam will closed
+4.time will allotted for each exam
+5.as a admin you can create subject and add questions for the subject
